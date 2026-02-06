@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+/* Force white text on colored buttons */
+button.btn-invoice-add,
+button.btn-invoice-save,
+button.btn-invoice-print,
+button.btn-invoice-new,
+.btn-invoice-add,
+.btn-invoice-save,
+.btn-invoice-print,
+.btn-invoice-new {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+button.bg-blue-600,
+button.bg-orange-500,
+button.bg-purple-600,
+button.bg-green-600 {
+    color: #ffffff !important;
+}
